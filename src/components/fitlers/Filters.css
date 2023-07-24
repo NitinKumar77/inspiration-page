@@ -1,0 +1,30 @@
+.custom-select {
+  min-width: 211px !important;
+  background: var(--neutral-n-100, #eeeef1) !important;
+  border-radius: 8px;
+}
+.clearAllIconButton {
+  color: var(--blue-b-550, #0660c8);
+  text-align: center;
+
+  /* Button/Large */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.customSelectFilterBox {
+  border-radius: 8px;
+  /* Body/Body-Normal-1 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0) !important;
+  color: #60607d;
+}

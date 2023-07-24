@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  background: var(--neutral-n-50, #f7f7f8);
+}

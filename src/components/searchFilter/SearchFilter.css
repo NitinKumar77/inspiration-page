@@ -1,0 +1,51 @@
+.search-filter-box {
+  position: relative;
+  top: -40px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+div.MuiBox-root.css-1wv2bu1
+  > div:nth-child(2)
+  > div
+  > div.MuiBox-root.css-arzwvd
+  > div
+  > div {
+  color: var(--neutral-n-700, #60607d);
+
+  /* Body/Body-Normal-1 */
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+div.MuiFormControl-root.MuiTextField-root.css-856enz-MuiFormControl-root-MuiTextField-root
+  > div {
+  margin: 24px 0px;
+}
+div.MuiBox-root.css-arzwvd > div > div {
+  padding: 10px 20px;
+}
+
+.searchField-Input_icon > div::before {
+  border-bottom: none;
+}
+.searchField-Input_icon > div::after {
+  border-bottom: none;
+}
+.searchField-Select_icon {
+  border-radius: 10px;
+  margin: 0px;
+}
+.css-l7a2rg-MuiInputBase-root-MuiInput-root-MuiSelect-root.MuiInput-underline:before {
+  border-bottom: none;
+}
+.css-l7a2rg-MuiInputBase-root-MuiInput-root-MuiSelect-root.MuiInput-underline:after {
+  border-bottom: none;
+}
+.MuiInput-underline:hover::before {
+  border-bottom: none !important;
+}
+.MuiInput-input {
+  margin-right: 12px !important;
+}

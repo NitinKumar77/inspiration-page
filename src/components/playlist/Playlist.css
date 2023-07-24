@@ -1,0 +1,67 @@
+.playlist-header__button {
+  border-radius: 24px !important;
+}
+.header_button_box {
+  border-radius: 24px;
+  padding: 6px;
+}
+.skelton {
+  animation: skelton-loading 1.5s ease-in-out 0.5s infinite;
+  border-radius: 24px;
+}
+@keyframes skelton-loading {
+  0% {
+    border: 5px solid rgba(0, 0, 0, 0.11);
+    opacity: 1;
+  }
+  50% {
+    border: 5px solid rgba(0, 0, 0, 0.11);
+    opacity: 0.4;
+  }
+  100% {
+    border: 5px solid rgba(0, 0, 0, 0.11);
+    opacity: 1;
+  }
+}
+
+.playlist__heading-text {
+  color: var(--neutral-n-1000, #05051e);
+  margin: 72px 0px;
+  /* Heading/Heading-Emphasis-5 */
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+}
+.playList-Box {
+  margin-bottom: 100px;
+}
+
+.imageContent__text {
+  color: var(--neutral-n-0, #fff);
+  align-self: center;
+  margin-left: 16px;
+  /* Body/Body-Emphasis-2 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  z-index: 34;
+}
+.mediaIcon-card {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(24px);
+  z-index: 54;
+}
+.imageContent {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  top: 180px;
+  left: 30px;
+  gap: 16px;
+}
