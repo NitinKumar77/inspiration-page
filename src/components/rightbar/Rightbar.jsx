@@ -5,15 +5,12 @@ import SearchFilter from "../searchFilter/SearchFilter";
 import Playlist from "../playlist/Playlist";
 
 function Rightbar() {
-  const [showFilter, setShowFilter] = useState(false);
   const [filterVariable, setFilterVariable] = useState({});
   return (
     <Box sx={{ flex: 18 }}>
       <Banner />
       <Box sx={{ margin: "0 138px" }}>
         <SearchFilter
-          showFilter={showFilter}
-          setShowFilter={setShowFilter}
           filterVariable={filterVariable}
           setFilterVariable={setFilterVariable}
         />

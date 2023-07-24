@@ -26,13 +26,9 @@ const SearchInput = styled("input")({
   color: "black",
   // border: "none",
 });
-function Searchfilter({
-  showFilter,
-  setShowFilter,
-  filterVariable,
-  setFilterVariable,
-}) {
+function Searchfilter({ filterVariable, setFilterVariable }) {
   const [age, setAge] = useState("Newest to Oldest");
+  const [showFilter, setShowFilter] = useState(false);
   const handleChange = (event) => {
     setAge(event.target.value);
   };
